@@ -10,7 +10,7 @@ function escolherQuadrado(id) {
 	let quadrado = document.getElementById(id);
 
 	quadrado.innerHTML = jogador;
-	quadrado.style.color = "#000";
+	quadrado.style.color = "#fff";
 
 	if (jogador === "X") {
 		jogador = "0";
@@ -62,26 +62,27 @@ function sequenciaDeJogadas(
 			segundoQuadradoEmSequencia,
 			terceiroQuadradoEmSequencia
 		)
-	)
+	) {
 		mudaCorQuadrado(
 			primeiroQuadradoEmSequencia,
 			segundoQuadradoEmSequencia,
 			terceiroQuadradoEmSequencia
 		);
-	mudarVencedor(primeiroQuadradoEmSequencia);
+		mudarVencedor(primeiroQuadradoEmSequencia);
+	}
 
 	return;
 }
 
-function mudarVencedor(quadrados) {
-	vencedor = quadrados.innerHTML;
+function mudarVencedor(quadrado) {
+	vencedor = quadrado.innerHTML;
 	vencedorSelecionado.innerHTML = vencedor;
 }
 
 function mudaCorQuadrado(primeiroQuadrado, segundoQuadrado, terceiroQuadrado) {
-	primeiroQuadrado.style.color = "#0f0";
-	segundoQuadrado.style.color = "#0f0";
-	terceiroQuadrado.style.color = "#0f0";
+	primeiroQuadrado.style.color = "#3d2e9d";
+	segundoQuadrado.style.color = "#3d2e9d";
+	terceiroQuadrado.style.color = "#3d2e9d";
 }
 
 function checaSequencia(quadradoUm, quadradoDois, quadradoTres) {
@@ -104,8 +105,8 @@ function reiniciar() {
 
 	for (let index = 1; index <= 9; index++) {
 		let quadrado = document.getElementById(index);
-		quadrado.style.background = "#eee";
-		quadrado.style.color = "#000";
+		quadrado.style.background = "#c2d162";
+		quadrado.style.color = "#fff";
 		quadrado.innerHTML = "";
 	}
 
