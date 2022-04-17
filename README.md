@@ -6,8 +6,8 @@ Criado com base nos tutoriais do bootcamp da Órbi Games disponível na platafor
 
 ## Fotos do Jogo:
 
-![Print 01](https://github.com/kasvrol/kasvrol-landingpage01.github.io/blob/main/meu-app/public/image/Captura-de-Tela-1.png)
-![Print 02](https://github.com/kasvrol/kasvrol-landingpage01.github.io/blob/main/meu-app/public/image/Captura-de-Tela-2.png)
+![Print 01](https://github.com/kasvrol/jogo-da-velha/print1.png)
+![Print 02](https://github.com/kasvrol/jogo-da-velha/print2.png)
 
 ### Feraamentas e tecnologias ⚒:
   * Visual Studio Code: https://code.visualstudio.com/Download
